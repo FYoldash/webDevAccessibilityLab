@@ -18,6 +18,10 @@ footer {
   text-align: center;
 }
 
+#logo a {
+  color: #fff;
+}
+
 header {
   background-color: #263248;
 }
@@ -71,4 +75,8 @@ footer {
   font-size: 0.8em;
   text-align: center;
   font-style: italic;
+}
+
+.submitContainer {
+  margin-top: 10px;
 }

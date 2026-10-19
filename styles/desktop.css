@@ -3,6 +3,11 @@ h1,
 h2 {
   font-family: "Raleway", sans-serif;
 }
+
+body {
+  font-display: swap;
+}
+
 .container {
   margin: auto;
   max-width: 1200px;
@@ -19,6 +24,11 @@ header h1 a:hover {
 #logo {
   padding: 10px;
 }
+
+#logo a {
+  color: #fff;
+}
+
 nav li a:hover {
   color: #7e8aa2;
 }
@@ -77,3 +87,32 @@ tr:nth-child(odd) {
   background-color: #ccc;
 }
 /* Form Styling Needs Adding */
+
+
+form {
+  width: 50%;
+  margin: auto;
+}
+form > div {
+  margin: 15px 0;
+  display: flex;
+}
+label {
+  display: inline-block;
+  width: 120px;
+}
+.submitContainer {
+  justify-content: flex-end;
+}
+input[type="submit"] {
+  width: auto;
+  margin: 0;
+}
+
+.burger {
+  display: none;
+}
+
+nav {
+  overflow: auto;
+}
